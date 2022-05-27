@@ -1,0 +1,35 @@
+#first{
+    background-image: url("iphone2.jpg");
+    background-size: cover;
+    height: 500px;
+}
+#body{
+    color: rgb( 255, 255, 255);
+    
+    
+    padding: 150px 50px;
+}
+section{
+    font-size: 50px;
+}
+#nav{
+    text-align: center;
+    word-spacing: 20px;
+}
+@media  screen and (max-width:300px){
+#body{font-size: smaller;
+    padding:150px 0px ;
+
+}
+section{font-size: 30px;
+    
+}
+}
+    
+
+footer{
+    border-style: ridge;
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+
